@@ -28,12 +28,14 @@ class TagList extends Component {
 
     componentDidMount() {
         this.loadData()
+        this.props.ethereum.on('networkChanged', networkId => {
+           this.loadData()});
 
     }
 
     renderList() {
         if (this.state.loading === false) {
-            return ( <ul className='noDotList neonred'>{this.state.tags.map(tag => <li key={tag}> {tag} </li>)} </ul>)
+            return ( <ul className='noDotList neonred '>{this.state.tags.map(tag => <li className='font-xs sm:font-sm md:font-base lg:font-3xl' key={tag}> {tag} </li>)} </ul>)
 
         }
 

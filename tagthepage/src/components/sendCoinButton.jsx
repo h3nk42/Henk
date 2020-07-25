@@ -1,6 +1,7 @@
 import React from 'react';
-import {Button} from "react-rainbow-components";
 
+
+import '../App.css'
 
 
 
@@ -28,12 +29,9 @@ class SendCoinButton extends React.Component {
     render() {
         return (
             <div style={{float: "left", marginRight: "20px"}}>
-                <Button  onClick={this.handleClick}
-                         label="otherpage"
-                         variant="brand"
-                         className="rainbow-m-around_medium">
+                <button  onClick={this.handleClick}>
                     Mint Coin
-                </Button>
+                </button>
             </div>
 
 

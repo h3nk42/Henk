@@ -1,0 +1,35 @@
+:focus{
+    outline: none;
+}
+.input-container{
+    border: 3px solid black;
+
+
+
+
+    float: left;
+    width: 27.33%;
+    margin: 42px 3%;
+    position: relative;
+}
+input[type="text"]{
+    color: #1d9af2;
+    width: 70%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    background-color: rgb(19, 23, 44);
+    border: none;
+}
+.effect-1~.focus-border{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #3399FF;
+    transition: 0.4s;
+}
+.effect-1:focus~.focus-border {
+    width: 70%;
+    transition: 0.4s;
+}

@@ -1,12 +1,14 @@
 import React from 'react';
-import {Button} from "react-rainbow-components";
+import '../App.css'
+
+import './tagInputStyle.css'
 
 
 class SendTagButton extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            tagToSend: "your tag",
+            tagToSend: "..",
         };
 
         this.handleChange = this.handleChange.bind(this);
@@ -28,17 +30,15 @@ class SendTagButton extends React.Component {
 
 
         return (
-            <div style={{float: "left", marginRight: "20px"}}>
-                <label style = {{ color: "white"}} htmlFor="test"></label>
-                <br style={{clear:"both"}} />
-                <input id="test" type="text" name="title" onChange={this.handleChange} value={this.state.tagToSend}  />
-                <Button  onClick={this.handleClick}
-                         label="otherpage"
-                         variant="brand"
-                         className="rainbow-m-around_medium">
-                    Tag the Wall
-                </Button>
-            </div>
+                <div>
+                <input className='effect-1'  maxlength="7" placeholder='placehold' type="text" name="title" onChange={this.handleChange} value={this.state.tagToSend}  />
+                    <span className="focus-border"></span>
+                <button  onClick={this.handleClick}>
+
+                    tag
+                </button>
+                </div>
+
 
 
         );

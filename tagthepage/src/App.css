@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import "https://cdn.jsdelivr.net/gh/tretapey/raisincss@1.1.0/raisin.min.css";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
 
 .App {
   text-align: center;
@@ -6,12 +11,15 @@
 
 
 
+
+
 .Title{
   width: 100%;
-  background-color: slategray;
+
 }
 
 .body{
+  border: 2px solid blue;
   height:100%;
   width: 100%;
   background-color: #282c34;
@@ -28,11 +36,13 @@
   justify-content: flex-start;
 }
 .wrapper {
+
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
 }
 .right{
   height: 100%;
@@ -43,7 +53,7 @@
 
 .neonpurple {
   text-transform: uppercase;
-  font-size: 60px;
+
   font-weight: bold;
   font-style: italic;
   letter-spacing: .1em;
@@ -78,7 +88,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -94,3 +103,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.gFont1 {
+  font-family: 'Cinzel', serif;
+}
+
+button {
+  color: white;
+  background-color: gold;
+  border: 1px solid gold;
+  border-radius: 4px;
+  padding: 0 15px;
+  cursor: pointer;
+  height:64px;
+  transition: all 0.2s ease-in-out;
+  opacity: 0.5;
+}
+button:hover {
+  transform: rotateZ(-30deg);
+}
+
+

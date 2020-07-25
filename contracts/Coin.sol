@@ -30,6 +30,7 @@ contract Coin is ERC20 {
     
     function tag(string memory _tag) public {
         require(counter<10, 'wall is full');
+        require(bytes(_tag).length < 7, 'tag too long' );
         _burn(msg.sender, 1);
         tagArray[counter] = _tag;
         counter++;
