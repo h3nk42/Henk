@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/DeeApp/static/css/main.3cf355c4.chunk.css",
-    "main.js": "/DeeApp/static/js/main.193868af.chunk.js",
-    "main.js.map": "/DeeApp/static/js/main.193868af.chunk.js.map",
+    "main.js": "/DeeApp/static/js/main.a22d2056.chunk.js",
+    "main.js.map": "/DeeApp/static/js/main.a22d2056.chunk.js.map",
     "runtime-main.js": "/DeeApp/static/js/runtime-main.a7e8ba47.js",
     "runtime-main.js.map": "/DeeApp/static/js/runtime-main.a7e8ba47.js.map",
     "static/js/2.d4042e3e.chunk.js": "/DeeApp/static/js/2.d4042e3e.chunk.js",
     "static/js/2.d4042e3e.chunk.js.map": "/DeeApp/static/js/2.d4042e3e.chunk.js.map",
     "index.html": "/DeeApp/index.html",
-    "precache-manifest.01d2c8d8ca1dda4fbb0da4e25a83d94b.js": "/DeeApp/precache-manifest.01d2c8d8ca1dda4fbb0da4e25a83d94b.js",
+    "precache-manifest.4165e98b2050d38fe4a27a70e338e1ac.js": "/DeeApp/precache-manifest.4165e98b2050d38fe4a27a70e338e1ac.js",
     "service-worker.js": "/DeeApp/service-worker.js",
     "static/css/main.3cf355c4.chunk.css.map": "/DeeApp/static/css/main.3cf355c4.chunk.css.map",
     "static/js/2.d4042e3e.chunk.js.LICENSE.txt": "/DeeApp/static/js/2.d4042e3e.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.a7e8ba47.js",
     "static/js/2.d4042e3e.chunk.js",
     "static/css/main.3cf355c4.chunk.css",
-    "static/js/main.193868af.chunk.js"
+    "static/js/main.a22d2056.chunk.js"
   ]
 }
