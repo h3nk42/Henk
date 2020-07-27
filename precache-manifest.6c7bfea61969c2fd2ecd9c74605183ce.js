@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "27990b3fd1debcfe6484fd74cd680264",
+    "revision": "3fee9ce6f87372dfd6fc90c1709c8385",
     "url": "/DeeApp/index.html"
   },
   {
-    "revision": "bcf90037ab96edb9a89f",
+    "revision": "2a0d4da44332864adc3d",
     "url": "/DeeApp/static/css/main.e897c106.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DeeApp/static/js/2.f98557a7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bcf90037ab96edb9a89f",
-    "url": "/DeeApp/static/js/main.f4ccd751.chunk.js"
+    "revision": "2a0d4da44332864adc3d",
+    "url": "/DeeApp/static/js/main.60f7ed32.chunk.js"
   },
   {
     "revision": "6c317e6402394920f5d6",
