@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/DeeApp/static/css/main.84de3d0d.chunk.css",
-    "main.js": "/DeeApp/static/js/main.92840507.chunk.js",
-    "main.js.map": "/DeeApp/static/js/main.92840507.chunk.js.map",
+    "main.css": "/DeeApp/static/css/main.e897c106.chunk.css",
+    "main.js": "/DeeApp/static/js/main.f4ccd751.chunk.js",
+    "main.js.map": "/DeeApp/static/js/main.f4ccd751.chunk.js.map",
     "runtime-main.js": "/DeeApp/static/js/runtime-main.a7e8ba47.js",
     "runtime-main.js.map": "/DeeApp/static/js/runtime-main.a7e8ba47.js.map",
-    "static/js/2.16c7d944.chunk.js": "/DeeApp/static/js/2.16c7d944.chunk.js",
-    "static/js/2.16c7d944.chunk.js.map": "/DeeApp/static/js/2.16c7d944.chunk.js.map",
+    "static/js/2.f98557a7.chunk.js": "/DeeApp/static/js/2.f98557a7.chunk.js",
+    "static/js/2.f98557a7.chunk.js.map": "/DeeApp/static/js/2.f98557a7.chunk.js.map",
     "index.html": "/DeeApp/index.html",
-    "precache-manifest.e506729ff76da575615dbf28ef3adae2.js": "/DeeApp/precache-manifest.e506729ff76da575615dbf28ef3adae2.js",
+    "precache-manifest.321b65ed9460c4b0049fbc00d6064636.js": "/DeeApp/precache-manifest.321b65ed9460c4b0049fbc00d6064636.js",
     "service-worker.js": "/DeeApp/service-worker.js",
-    "static/css/main.84de3d0d.chunk.css.map": "/DeeApp/static/css/main.84de3d0d.chunk.css.map",
-    "static/js/2.16c7d944.chunk.js.LICENSE.txt": "/DeeApp/static/js/2.16c7d944.chunk.js.LICENSE.txt",
+    "static/css/main.e897c106.chunk.css.map": "/DeeApp/static/css/main.e897c106.chunk.css.map",
+    "static/js/2.f98557a7.chunk.js.LICENSE.txt": "/DeeApp/static/js/2.f98557a7.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/DeeApp/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a7e8ba47.js",
-    "static/js/2.16c7d944.chunk.js",
-    "static/css/main.84de3d0d.chunk.css",
-    "static/js/main.92840507.chunk.js"
+    "static/js/2.f98557a7.chunk.js",
+    "static/css/main.e897c106.chunk.css",
+    "static/js/main.f4ccd751.chunk.js"
   ]
 }
