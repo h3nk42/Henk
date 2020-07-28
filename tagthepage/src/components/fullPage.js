@@ -8,6 +8,10 @@ import {Button} from '@material-ui/core'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
+import henk from '../henkShot2.png'
+
+import '../App.css'
+
 
 class FullPage extends Component {
 
@@ -31,8 +35,8 @@ class FullPage extends Component {
                 <div className='flex-column h-screen w-screen'>
                     <div style={{background: this.returnColor()[0], height: '5000px'}}
                          className='container-fluid flex flex-column flex-wrap justify-start items-center w-auto h-screen'>
-                        <div style={{background: this.returnColor()[0], height: '2.5%', width: '95%'}} className='p-5 '><h2 style={{color:this.returnColor()[3]}}
-                            className='nameFont font-xs md:font-xl lg:font-2xl'> HENK VAN DER SLOOT</h2></div>
+                        <div style={{background: this.returnColor()[0], height: '1.5%', minHeight: '50px', width: '95%'}} className=' p-2 mb-1 sm:mb-5'><h2 style={{color:this.returnColor()[3]}}
+                            className='fromRight nameFont font-xs md:font-xl lg:font-2xl'> HENK VAN DER SLOOT</h2></div>
                         <div style={{background: this.returnColor()[0]}} className='flex flex-row flex-wrap justify-center w-full '>
                             <div style={{background: this.returnColor()[1], height: '400px', minHeight: '200px', minWidth: '350px'}}
                                  className=' mb-2 p-2 w-3/5 shadow-4 grid grid has-6-columns has-6-rows column-gap-5 row-gap-5'>
@@ -49,30 +53,60 @@ class FullPage extends Component {
                                 </div>
                                 <div style={{background:'black'}} className='button2 w-full h-full'></div>
                             </div>
-                            <div style={{background: this.returnColor()[1], height: '500px', minWidth: '250px'}}
-                                 className='w-1/5 h-4/5 shadow-4 ml-2 grid p-2'>
-                                <p style={{color:this.returnColor()[4]}} className='font-xs sm:font-xs'> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                            <div style={{background: this.returnColor()[1], height: 'auto', minWidth: '250px'}}
+                                 className='w-1/5 h-4/5 shadow-4 ml-2 grid p-2 fromRight'>
+                                <img src={henk}></img>
+                                {/*<p style={{color:this.returnColor()[4]}} className='font-xs sm:font-xs'> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
                                     sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
                                     sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                                </p>
+                                </p>*/}
                             </div>
 
                         </div>
-                        <VerticalTimeline style={{background:'black'}}>
+                        <div style={{height:'7%'}}className=' w-full border'>
+
+                        </div>
+                        <div className=''>
+                        <VerticalTimeline>
                             <VerticalTimelineElement
                                 className="vertical-timeline-element"
-                                contentStyle={{background: this.returnColor()[1], color: this.returnColor()[4] }}
+                                contentStyle={{background: this.returnColor()[1], color: 'black' }}
                                 contentArrowStyle={{ borderRight: '20px solid '.concat(this.returnColor()[1])}}
-                                date="2019 - present"
+                                date="2018 - 2020"
                                 iconStyle={{ background: this.returnColor()[3], color: this.returnColor()[4] }}
                             >
-                                <h3 style={{color:this.returnColor()[4]}} className="vertical-timeline-element-title">Creative Director</h3>
-                                <h4 style={{color:this.returnColor()[4]}} className="vertical-timeline-element-subtitle">Miami, FL</h4>
+                                <h3 style={{color:this.returnColor()[4]}} className="vertical-timeline-element-title">Informatik Bsc.</h3>
+                                <h4 style={{color:this.returnColor()[4]}} className="vertical-timeline-element-subtitle">Uni Leipzig</h4>
                                 <p style={{color:this.returnColor()[4]}}>
-                                    Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                                </p>
+                            </VerticalTimelineElement>
+                            <VerticalTimelineElement
+                                className="vertical-timeline-element"
+                                contentStyle={{background: this.returnColor()[1], color:'black' }}
+                                contentArrowStyle={{ borderRight: '20px solid '.concat(this.returnColor()[1])}}
+                                date="2019 - 2020"
+                                iconStyle={{ background: this.returnColor()[3], color: this.returnColor()[4] }}
+                            >
+                                <h3 style={{color:this.returnColor()[4]}} className="vertical-timeline-element-title">Software Engineer</h3>
+                                <h4 style={{color:this.returnColor()[4]}} className="vertical-timeline-element-subtitle">Exxeta GmbH, Leipzig</h4>
+                                <p style={{color:this.returnColor()[4]}}>
+                                    Werkstudent, eigenes Projekt: Ethereum, Smart-Contracts, React, NodeJS
+                                </p>
+                            </VerticalTimelineElement>
+                            <VerticalTimelineElement
+                                className="vertical-timeline-element"
+                                contentStyle={{background: this.returnColor()[1], color:'black' }}
+                                contentArrowStyle={{ borderRight: '20px solid '.concat(this.returnColor()[1])}}
+                                date="2020 - present"
+                                iconStyle={{ background: this.returnColor()[3], color: this.returnColor()[4]}}
+                            >
+                                <h3 style={{color:this.returnColor()[4]}} className="vertical-timeline-element-title">angewandte Info.</h3>
+                                <h4 style={{color:this.returnColor()[4]}} className="vertical-timeline-element-subtitle">HTW Berlin</h4>
+                                <p style={{color:this.returnColor()[4]}}> Bachelor fertig stellen
                                 </p>
                             </VerticalTimelineElement>
                         </VerticalTimeline>
+                        </div>
                     </div>
                 </div>
 
