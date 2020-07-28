@@ -2,6 +2,9 @@
 @import "https://cdn.jsdelivr.net/gh/tretapey/raisincss@1.1.0/raisin.min.css";
 
 
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 
@@ -11,7 +14,13 @@
 
 
 
+.nameFont {
+  font-family: 'Fjalla One', sans-serif;
+}
 
+.textFont {
+  font-family: 'Roboto', sans-serif;
+}
 
 .Title{
   width: 100%;
@@ -110,19 +119,35 @@
   font-family: 'Cinzel', serif;
 }
 
-button {
+.button1 {
   color: white;
-  background-color: gold;
-  border: 1px solid gold;
+  background-color: black;
+  border: 1px solid black;
   border-radius: 4px;
   padding: 0 15px;
   cursor: pointer;
-  height:64px;
+  height:80px;
   transition: all 0.2s ease-in-out;
   opacity: 0.5;
 }
-button:hover {
-  transform: rotateZ(-30deg);
+.button2:hover {
+  animation: spin 2s ease-in-out .5s infinite alternate;
+}
+
+@keyframes spin {
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
+}
+
+/* The line */
+.vertical-timeline::before {
+  background: #013535 !important;
+  opacity: 0.4;
+  border-radius: 50%;
 }
 
 
