@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/DeeApp/static/css/main.1265c272.chunk.css",
-    "main.js": "/DeeApp/static/js/main.b80fcfde.chunk.js",
-    "main.js.map": "/DeeApp/static/js/main.b80fcfde.chunk.js.map",
+    "main.js": "/DeeApp/static/js/main.62c81216.chunk.js",
+    "main.js.map": "/DeeApp/static/js/main.62c81216.chunk.js.map",
     "runtime-main.js": "/DeeApp/static/js/runtime-main.a7e8ba47.js",
     "runtime-main.js.map": "/DeeApp/static/js/runtime-main.a7e8ba47.js.map",
     "static/css/2.b1af40b1.chunk.css": "/DeeApp/static/css/2.b1af40b1.chunk.css",
     "static/js/2.dca65370.chunk.js": "/DeeApp/static/js/2.dca65370.chunk.js",
     "static/js/2.dca65370.chunk.js.map": "/DeeApp/static/js/2.dca65370.chunk.js.map",
     "index.html": "/DeeApp/index.html",
-    "precache-manifest.bf62f7cd67335c1c3fdf466bbc4c13a8.js": "/DeeApp/precache-manifest.bf62f7cd67335c1c3fdf466bbc4c13a8.js",
+    "precache-manifest.3de7af0173fe35856b4e88820d6c143f.js": "/DeeApp/precache-manifest.3de7af0173fe35856b4e88820d6c143f.js",
     "service-worker.js": "/DeeApp/service-worker.js",
     "static/css/2.b1af40b1.chunk.css.map": "/DeeApp/static/css/2.b1af40b1.chunk.css.map",
     "static/css/main.1265c272.chunk.css.map": "/DeeApp/static/css/main.1265c272.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.b1af40b1.chunk.css",
     "static/js/2.dca65370.chunk.js",
     "static/css/main.1265c272.chunk.css",
-    "static/js/main.b80fcfde.chunk.js"
+    "static/js/main.62c81216.chunk.js"
   ]
 }
