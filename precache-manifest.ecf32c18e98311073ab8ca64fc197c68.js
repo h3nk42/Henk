@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f26bce1e3fa60e90cf804eea68000da5",
+    "revision": "2ed7deebd76a561e64a8139ec746a5e5",
     "url": "/DeeApp/index.html"
   },
   {
-    "revision": "0c463f774ece6e268fa4",
+    "revision": "c0a2c73e86e20b0c8418",
     "url": "/DeeApp/static/css/2.b1af40b1.chunk.css"
   },
   {
-    "revision": "70a0127116bba1a51850",
+    "revision": "684da640b950245b8717",
     "url": "/DeeApp/static/css/main.ad063e07.chunk.css"
   },
   {
-    "revision": "0c463f774ece6e268fa4",
-    "url": "/DeeApp/static/js/2.994b0910.chunk.js"
+    "revision": "c0a2c73e86e20b0c8418",
+    "url": "/DeeApp/static/js/2.aa6b316f.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/DeeApp/static/js/2.994b0910.chunk.js.LICENSE.txt"
+    "url": "/DeeApp/static/js/2.aa6b316f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "70a0127116bba1a51850",
-    "url": "/DeeApp/static/js/main.b66737bd.chunk.js"
+    "revision": "684da640b950245b8717",
+    "url": "/DeeApp/static/js/main.7560417e.chunk.js"
   },
   {
     "revision": "6c317e6402394920f5d6",
