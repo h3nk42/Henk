@@ -6,6 +6,9 @@ import ShowBalance from "./components/ShowBalance";
 import SendTagButton from "./components/sendTagButton";
 import TagList from "./components/TagList";
 import FullPage from "./components/fullPage";
+import NavDrawer from "./components/NavDrawer";
+import GoogleDraw from "./components/GoogleDraw";
+
 
 
 
@@ -27,7 +30,7 @@ class App extends Component {
       coinContract: '',
       loading: true,
       ethereum:'',
-      colorScheme: 1,
+      colorScheme: 3,
 
 
 
@@ -105,16 +108,45 @@ class App extends Component {
     }
    }
 
-  render() {
-        {if(this.state.colorScheme === 1)
-    {
-      return (<FullPage handlerr={this.handleClick} scheme={1}/>)
+  returnColor() {
+    if (this.state.colorScheme === 3) {
+      return ['#DBBEA1','#DB7F67','#A37B73','#DB7F67', 'black']
     } else if (this.state.colorScheme === 2) {
-          return (<FullPage handlerr={this.handleClick} scheme={2}/>)
-        }
-        else { return (<FullPage handlerr={this.handleClick} scheme={3}/>)}
+      return ['#E7ECEF','#274C77','#6096BA','#274C77','#E7ECEF']
+    } else {
+      return  (['#FFAA00','#FF5400','#FF7900','#FF4800', 'black'] )
+    }
   }
+
+   returnPage2(){
+     if(this.state.colorScheme === 1)
+     {
+       return (<div className=' flex-row flex h-screen w-screen' >
+
+         <FullPage handlerr={this.handleClick} scheme={1}/>
+       </div>)
+     }
+     else if (this.state.colorScheme === 2) {
+       return (<div className=' flex-row flex h-screen w-screen' >
+
+         <FullPage handlerr={this.handleClick} scheme={2}/>
+       </div>)
+     }
+     else { return (<div className='flex-row flex h-screen w-screen' >
+
+       <FullPage handlerr={this.handleClick} scheme={3}/>
+     </div>)}
+     }
+
+  render(){
+  return (<div>
+
+          {this.returnPage2()}
+
+      </div>
+  )
   }
+
 }
 
 export default App;

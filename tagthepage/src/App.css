@@ -3,6 +3,10 @@
 
 @import '~animate.css';
 
+@import '~raisincss';
+
+
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300&display=swap');
@@ -15,6 +19,10 @@
 }
 
 
+.fadeIn {
+  animation: fadeIn;
+  animation-duration: 2.5s;
+}
 
 .nameFont {
   font-family: 'Fjalla One', sans-serif;
@@ -166,6 +174,20 @@
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 0px 0 #000 !important;
+}
+
+.vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px black, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.vertical-timeline-element-content {
+  position: relative;
+  margin-left: 60px;
+  background: white;
+  border-radius: 0em !important;
+  padding: 1em;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22) !important;
+
 }
 
 

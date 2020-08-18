@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './2.0/App';
 import * as serviceWorker from './serviceWorker';
+import ResponsiveDrawer from "./components/DrawerTest";
+import { BrowserRouter as Router } from 'react-router-dom';
+import {CssBaseline} from "@material-ui/core";
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Router>
+          <CssBaseline></CssBaseline>
+          <App></App>
+      </Router>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
