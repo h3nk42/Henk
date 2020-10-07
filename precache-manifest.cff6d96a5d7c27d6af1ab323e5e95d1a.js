@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f9f2f72568a5365c5bd3848ea953b585",
+    "revision": "22f804db3298f2ee67e464992b3a5c4d",
     "url": "/DeeApp/index.html"
   },
   {
-    "revision": "17d6cc830bfbe8de0e52",
+    "revision": "c5216802d38f98bcd79c",
     "url": "/DeeApp/static/css/2.b1af40b1.chunk.css"
   },
   {
-    "revision": "5b0670b1ac70977a0a04",
-    "url": "/DeeApp/static/css/main.ad063e07.chunk.css"
+    "revision": "216098ad0e3a4b460ad5",
+    "url": "/DeeApp/static/css/main.3adf29b6.chunk.css"
   },
   {
-    "revision": "17d6cc830bfbe8de0e52",
-    "url": "/DeeApp/static/js/2.4fac178f.chunk.js"
+    "revision": "c5216802d38f98bcd79c",
+    "url": "/DeeApp/static/js/2.907db269.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/DeeApp/static/js/2.4fac178f.chunk.js.LICENSE.txt"
+    "url": "/DeeApp/static/js/2.907db269.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5b0670b1ac70977a0a04",
-    "url": "/DeeApp/static/js/main.7595d181.chunk.js"
+    "revision": "216098ad0e3a4b460ad5",
+    "url": "/DeeApp/static/js/main.bf2baa93.chunk.js"
   },
   {
     "revision": "6c317e6402394920f5d6",
     "url": "/DeeApp/static/js/runtime-main.a7e8ba47.js"
+  },
+  {
+    "revision": "cefc20232703e5e3c24efd5f50d75e26",
+    "url": "/DeeApp/static/media/GitHub_Logo.cefc2023.png"
   },
   {
     "revision": "9e336adb1a9f48f307b1e228095a486f",
@@ -34,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aa837ea92549c60db0eea40c1b38af2d",
     "url": "/DeeApp/static/media/henkShot2.aa837ea9.png"
+  },
+  {
+    "revision": "0cbd7270e72c8885c17b4ba59c0bb4a8",
+    "url": "/DeeApp/static/media/logo-linkedin.0cbd7270.svg"
   },
   {
     "revision": "ece4f38c64a448d3e40a875d5f59a27c",
