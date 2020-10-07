@@ -12,6 +12,7 @@ import '../App.css'
 import MaterialButton from "./MaterialButton";
 
 import theme from "./Theme";
+import BubbleChartComponent from "./BubbleChartComponent";
 
 class FullPage extends Component {
 
@@ -44,7 +45,7 @@ class FullPage extends Component {
                             <div style={{background: this.returnColor()[1], height: '400px', minHeight: '200px', minWidth: '350px'}}
                                  className='fadeIn mb-2 p-2 w-3/5 shadow-4 grid grid has-6-columns has-6-rows column-gap-5 row-gap-5'>
                                 <div style={{background: this.returnColor()[1]}} className=' fadeIn column-start-3 column-end-6 row-start-6 flex items-end justify-end'>
-                                    <Button style={{outline:'none'}} className='mdc-button' onClick={this.props.handleClick}>
+                                    <Button style={{outline:'none'}} className='mdc-button' onClick={this.props.schemeChanger}>
                                         <div className="mdc-button__ripple"></div>
                                         <span className="mdc-button__label nameFont font-xs">change scheme</span>
                                     </Button>
@@ -56,9 +57,9 @@ class FullPage extends Component {
                                 </div>
 
                             </div>
-                            <div style={{background: this.returnColor()[1], height: 'auto', minWidth: '250px'}}
-                                 className='w-1/5 h-4/5 shadow-4 ml-2 grid p-2 fromRight'>
-                                <img src={henk}></img>
+                            <div style={{background: this.returnColor()[1], height: '400px', minWidth: '300px'}}
+                                 className='w-1/5 h-4/5 shadow-4 ml-2 grid p-2 fromRight flex flex-row items-center justify-center'>
+                                <img style={{height:'380px'}} src={henk}></img>
                                 {/*<p style={{color:this.returnColor()[4]}} className='font-xs sm:font-xs'> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
                                     sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
                                     sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
@@ -127,8 +128,17 @@ class FullPage extends Component {
                                 </p>
                             </VerticalTimelineElement>
                         </VerticalTimeline>
-                            <div className='border h-full flex flex-column items-center pt-2'>
-                                <MaterialButton color={this.returnColor()[3]}/>
+                            <div className=' h-full flex flex-column items-center pt-5'>
+                                <h2 className='textFont'> things I like </h2>
+                                <BubbleChartComponent version={1} color={this.returnColor()}></BubbleChartComponent>
+                                <div style={{alignSelf: 'flex-end'}}>
+                                    <MaterialButton schemeChanger={this.props.schemeChanger} color={this.returnColor()[3]}/>
+                                </div>
+                                <h2>tech skills</h2>
+                                <BubbleChartComponent version={2} color={this.returnColor()}></BubbleChartComponent>
+                            </div>
+                            <div>
+
                             </div>
                         </div>
                     </div>

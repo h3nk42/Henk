@@ -1,13 +1,14 @@
-import {Card,
-        CardMedia,
-        CardActionArea,
-        CardActions,
-        Button,
-        CardContent,
-        Typography,
+import {
+    Card,
+    CardMedia,
+    CardActionArea,
+    CardActions,
+    Button,
+    CardContent,
+    Typography, createMuiTheme,
 } from "@material-ui/core";
 import React from "react";
-import {makeStyles} from "@material-ui/core/styles";
+import {makeStyles, ThemeProvider} from "@material-ui/core/styles";
 import monstera from '../../images/monstera.png';
 import calathea from '../../images/calathea.png'
 
@@ -36,10 +37,36 @@ export default function ImgCard(props) {
         }
     })
 
+    const theme = createMuiTheme();
+
+    theme.typography.body2 = {
+        fontSize: '80%',
+        '@media (min-width:600px)': {
+            fontSize: '80%',
+        },
+        [theme.breakpoints.up('md')]: {
+            fontSize: '90%',
+        },
+    };
+
+    theme.typography.h5 = {
+            fontSize: '1rem',
+        [theme.breakpoints.up('sm')]: {
+            fontSize: '1.4rem',
+        },
+        [theme.breakpoints.up('md')]: {
+
+        },
+        [theme.breakpoints.up('lg')]: {
+
+        }
+    };
+
     const classes = useStyles();
 
     return (
         <Card className={classes.root}>
+
             <CardActionArea>
                 <CardMedia
                     component="img"
@@ -49,12 +76,14 @@ export default function ImgCard(props) {
                     title="Contemplative Reptile"
                 />
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
-                        {returntext(props.num)}
-                    </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">
-                       Schoene Pflanze
-                    </Typography>
+                    <ThemeProvider theme={theme}>
+                        <Typography gutterBottom variant="h5" component="h2">
+                            {returntext(props.num)}
+                        </Typography>
+                        <Typography variant="body2" color="mainSecondary" component="p">
+                           Schoene Pflanze
+                        </Typography>
+                    </ThemeProvider>
                 </CardContent>
             </CardActionArea>
             <CardActions>

@@ -25,9 +25,9 @@ export default function Drawer(props) {
         window.scrollTo(0, 0)
         if (num === 0 ) {
             history.push('/DeeApp')
-        } else if (num === 1 ) {
+        } else if (num === 2 ) {
             history.push('/dApp')
-        } else if (num === 2) {
+        } else if (num === 1) {
             history.push('/Contact')
         }
     }
@@ -59,7 +59,7 @@ export default function Drawer(props) {
         <Hidden smDown>
         <MUIDrawer variant='permanent' classes={{paper:classes.paper, root: classes.drawer}}>
             <List>
-                {['Home', 'D-App', 'Contact'].map((text, index) => (
+                {['Home', 'Contact', 'D-App'].map((text, index) => (
                     <ListItem button onClick={() => handleClick(index)} key={text}>
                         <ListItemText primary={text} />
                     </ListItem>

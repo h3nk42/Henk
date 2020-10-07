@@ -4,17 +4,10 @@ import Button from '@material-ui/core/Button';
 
 export default function MaterialButton(props) {
 
-    const text = ['Click me please', 'I\'ve been clicked!']
-    const [buttonText, setButtonText] = useState(text[0]);
-
-    useEffect( () => {
-        document.title = buttonText;
-    });
-
-
     return(
-        <Button color="primary" variant='contained' onClick={() => { buttonText === text[0] ? setButtonText(text[1]) : setButtonText(text[0]) } } >
-            {buttonText}
+        <Button style={{outline:'none'}} className='mdc-button' onClick={props.schemeChanger}>
+            <div className="mdc-button__ripple"></div>
+            <span className="mdc-button__label nameFont font-xs">change scheme</span>
         </Button>
     )
 }

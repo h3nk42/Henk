@@ -8,7 +8,7 @@ import FullPage from "../components/fullPage";
 export default function Home(props) {
     return (
         <div>
-            <FullPage handleClick={props.schemeChanger} scheme={props.scheme}>
+            <FullPage schemeChanger={props.schemeChanger} scheme={props.scheme}>
             </FullPage>
         </div>
     )

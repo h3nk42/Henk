@@ -11,6 +11,9 @@ function theme(props) {
                     main: '#DB7F67',
                     dark: '#A37B73',
                     contrastText: 'black'
+                },
+                secondary:{
+                    main: '#DBBEA1',
                 }
             }
         }) )
@@ -24,6 +27,9 @@ function theme(props) {
                         main: '#FF5400',
                         dark: '#FF7900',
                         contrastText: 'black'
+                    },
+                    secondary:{
+                        main: '#DBBEA1',
                     }
                 }
             }) )
@@ -37,6 +43,9 @@ function theme(props) {
                         main: '#274C77',
                         dark: '#6096BA',
                         contrastText: 'white'
+                    },
+                    secondary:{
+                        main: '#DBBEA1',
                     }
                 }
             }) )

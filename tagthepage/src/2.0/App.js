@@ -38,7 +38,7 @@ export default function App() {
 
     const classes = useStyles();
     return (
-        <div className={classes.container} id='scrollTopDiv'>
+        <div className={classes.container} style={{overflowX:"hidden"}} id='scrollTopDiv'>
             <Drawer color={returnColor()[0]}/>
             <Switch>
                 <Route exact from="/DeeApp" render={props => <Home schemeChanger={schemeChanger} scheme={scheme} {...props} />} />
