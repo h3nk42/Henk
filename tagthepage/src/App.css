@@ -19,6 +19,7 @@
 }
 
 
+
 .fadeIn {
   animation: fadeIn;
   animation-duration: 2.5s;
@@ -26,6 +27,10 @@
 
 .nameFont {
   font-family: 'Fjalla One', sans-serif;
+}
+
+.linkStyle {
+
 }
 
 .textFont {

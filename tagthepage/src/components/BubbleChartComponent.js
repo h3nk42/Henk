@@ -61,7 +61,7 @@ function BubbleChartComponent (props) {
                     {label: 'fantasy books', value: 14, color: props.color[1]},
                     {label: 'meditation', value: 5, color: props.color[1]},
                     {label: 'running', value: 40, color: props.color[1]},
-
+                    {label: 'code', value: 35, color: props.color[1]},
                 ]}
             />
         );
@@ -107,9 +107,10 @@ function BubbleChartComponent (props) {
                     {label: 'React' , value: 23, color: props.color[1]},
                     {label: 'ES6', value: 14, color: props.color[1]},
                     {label: 'Java', value: 5, color: props.color[1]},
-                    {label: 'Ethereum', value: 40, color: props.color[1]},
-                    {label: 'MERN', value: 5, color: props.color[1]},
-
+                    {label: 'Ethereum', value: 30, color: props.color[1]},
+                    {label: 'MERN', value: 15, color: props.color[1]},
+                    {label: 'Kubernetes', value: 8, color: props.color[1]},
+                    {label: 'GNU/Linux', value: 14, color: props.color[1]},
                 ]}
             />
         );

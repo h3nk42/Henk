@@ -52,7 +52,7 @@ class FullPage extends Component {
                                     </div>
                                 <div className='textFont column-start-1 column-end-6 row-start-1 row-end-5'>
                                     <p style={{color:this.returnColor()[4]}} className=' font-xs sm:font-xs md:font-xs lg:font-base'>I'm a software engineer studying applied computer science at HTW Berlin. In 2019 I started working with Ethereum and Smart Contracts which immediately sparked my
-                                        interests in making the world a more decentralized space.
+                                        interest in making the world a more decentralized space.
                                     </p>
                                 </div>
 
@@ -122,9 +122,9 @@ class FullPage extends Component {
                                     margin: '20%'
                                     }} src={schoolIcon}></img>}
                             >
-                                <h3 style={{color:this.returnColor()[4]}} className="vertical-timeline-element-title">angewandte Info.</h3>
+                                <h3 style={{color:this.returnColor()[4]}} className="vertical-timeline-element-title">angewandte Informatik</h3>
                                 <h4 style={{color:this.returnColor()[4]}} className="vertical-timeline-element-subtitle">HTW Berlin</h4>
-                                <p style={{color:this.returnColor()[4]}}> Bachelor fertig stellen
+                                <p style={{color:this.returnColor()[4]}}> Bachelor fertigstellen
                                 </p>
                             </VerticalTimelineElement>
                         </VerticalTimeline>
