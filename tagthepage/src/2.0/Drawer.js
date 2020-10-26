@@ -24,7 +24,7 @@ export default function Drawer(props) {
     const handleClick = (num) => {
         window.scrollTo(0, 0)
         if (num === 0 ) {
-            history.push('/DeeApp')
+            history.push('/Henk')
         } else if (num === 2 ) {
             history.push('/dApp')
         } else if (num === 1) {

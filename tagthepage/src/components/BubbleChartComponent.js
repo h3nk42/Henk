@@ -3,13 +3,8 @@ import BubbleChart from '@weknow/react-bubble-chart-d3';
 
 
 
-let data = {
-    _id: 'test',        // unique id (required)
-    value: 1,      // used to determine relative size of bubbles (required)
-    displayText: 'test',// will use _id if undefined
-    colorValue: 2, // used to determine color
-    selected: true,  // if true will use selectedColor/selectedTextColor for circle/text
-}
+
+
 let bubbleClick = (label) =>{
     console.log("Custom bubble click func")
 }
@@ -61,7 +56,7 @@ function BubbleChartComponent (props) {
                     {label: 'fantasy books', value: 14, color: props.color[1]},
                     {label: 'meditation', value: 5, color: props.color[1]},
                     {label: 'running', value: 40, color: props.color[1]},
-                    {label: 'code', value: 35, color: props.color[1]},
+                    {label: 'code', value: 25, color: props.color[1]},
                 ]}
             />
         );
