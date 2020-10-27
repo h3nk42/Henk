@@ -15,14 +15,15 @@ a {
     color: black;
 
 }
-h1 {
+
+.mailButton {
     border-bottom: 3px solid #ff8cbc;
     font-size: 1em;
     transition: all 0.25s linear;
     position: relative;
 }
 
-h1:before {
+.mailButton:before {
     content: "";
     display: block;
     width: 100%;
@@ -37,6 +38,6 @@ h1:before {
     /*   will-change: transform; */
 }
 
-h1:hover:before {
+.mailButton:hover:before {
     transform: scale(1);
 }

@@ -25,10 +25,11 @@ export default function Drawer(props) {
         window.scrollTo(0, 0)
         if (num === 0 ) {
             history.push('/Henk')
-        } else if (num === 2 ) {
-            history.push('/dApp')
         } else if (num === 1) {
-            history.push('/Contact')
+            history.push('/Henk/Contact')
+        }
+        else if (num === 2 ) {
+            history.push('/Henk/Projects')
         }
     }
 
@@ -59,7 +60,7 @@ export default function Drawer(props) {
         <Hidden smDown>
         <MUIDrawer variant='permanent' classes={{paper:classes.paper, root: classes.drawer}}>
             <List>
-                {['Home', 'Contact', 'D-App'].map((text, index) => (
+                {['Home', 'Contact', 'Projects'].map((text, index) => (
                     <ListItem button onClick={() => handleClick(index)} key={text}>
                         <ListItemText primary={text} />
                     </ListItem>
@@ -70,7 +71,7 @@ export default function Drawer(props) {
             <div >
                 <MUIDrawer variant='temporary' open={open} classes={{paper:classes.paper, root: classes.drawer}}>
                     <List>
-                        {['Home', 'D-App', 'Contact'].map((text, index) => (
+                        {['Home', 'Contact', 'Projects'].map((text, index) => (
                             <ListItem button onClick={() =>  {handleClick(index)
                                 changeStatus(!open) }} key={text}>
                                 <ListItemText primary={text} />

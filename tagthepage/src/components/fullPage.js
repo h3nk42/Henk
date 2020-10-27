@@ -58,7 +58,7 @@ class FullPage extends Component {
 
                             </div>
                             <div style={{background: this.returnColor()[1], height: '400px', minWidth: '300px'}}
-                                 className='w-1/5 h-4/5 shadow-4 ml-2 grid p-2 fromRight flex flex-row items-center justify-center'>
+                                 className=' h-4/5 shadow-4 ml-2 grid p-2 fromRight flex flex-row items-center justify-center'>
                                 <img style={{height:'380px'}} src={henk}></img>
                                 {/*<p style={{color:this.returnColor()[4]}} className='font-xs sm:font-xs'> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
                                     sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
@@ -76,7 +76,7 @@ class FullPage extends Component {
                                 className="vertical-timeline-element"
                                 contentStyle={{background: this.returnColor()[1], color: 'black' }}
                                 contentArrowStyle={{ borderRight: '20px solid '.concat(this.returnColor()[1])}}
-                                date="2018 - 2020"
+                                date="2019 - 2020"
                                 iconStyle={{ background: this.returnColor()[3], color: this.returnColor()[4] }}
                                 icon={<img style={{ width: '60%',
                                     height: '60%',

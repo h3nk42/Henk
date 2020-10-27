@@ -31,7 +31,7 @@ export default function Contact(props) {
     return (
 
             <ThemeProvider theme={theme(props.scheme)}>
-        <div style={{background: returnColor()[0], height: '1000px'}}
+        <div style={{background: returnColor()[0], height: '100vh'}}
              className='xs:pl-5 pl-6 container-fluid flex flex-column flex-wrap justify-start items-center w-screen h-screen'>
 
             <div style={{ height: '200px', minHeight: '200px', minWidth: '350px'}} className='flex flex-column justify-center '> <h2> CONTACT ME! </h2> </div>
@@ -43,7 +43,7 @@ export default function Contact(props) {
                     <MailToLink></MailToLink>
                 </div>
 
-                <div style={{}} className=' fadeIn column-start-3 column-end-3 row-start-4 flex items-end justify-end flex flex-column
+                <div style={{}} className=' fadeIn column-start-3 column-end-4 row-start-4 flex items-end justify-end flex flex-column
                 justify-center items-center'>
                     <a className='flex flex-row items-start justify-center' href="https://github.com/h3nk42"><img
                         style={{width:'120px', height: '50px'}} src={require('../images/GitHub-Logos/GitHub_Logo.png')}></img></a>

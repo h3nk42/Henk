@@ -4,7 +4,7 @@ import Home from "./Home";
 import { Route, Switch } from "react-router-dom";
 import Drawer from "./Drawer";
 import { makeStyles } from "@material-ui/core/styles";
-import DApp from "./dApp";
+import Projects from "./Projects";
 import Contact from "./Contact";
 
 
@@ -41,9 +41,9 @@ export default function App() {
         <div className={classes.container} style={{overflowX:"hidden"}} id='scrollTopDiv'>
             <Drawer color={returnColor()[0]}/>
             <Switch>
-                <Route exact from="/DeeApp" render={props => <Home schemeChanger={schemeChanger} scheme={scheme} {...props} />} />
-                <Route exact from="/dApp" render={props => <DApp getColor={returnColor} schemeChanger={schemeChanger} scheme={scheme} {...props} />} />
-                <Route exact from="/Contact" render={props => <Contact schemeChanger={schemeChanger} scheme={scheme} {...props} />} />
+                <Route exact from="/Henk" render={props => <Home schemeChanger={schemeChanger} scheme={scheme} {...props} />} />
+                <Route exact from="/Henk/Projects" render={props => <Projects getColor={returnColor} schemeChanger={schemeChanger} scheme={scheme} {...props} />} />
+                <Route exact from="/Henk/Contact" render={props => <Contact schemeChanger={schemeChanger} scheme={scheme} {...props} />} />
             </Switch>
         </div>
     );
