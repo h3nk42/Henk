@@ -1,32 +1,30 @@
 {
   "files": {
-    "main.css": "/Henk/static/css/main.3adf29b6.chunk.css",
-    "main.js": "/Henk/static/js/main.f26cce3b.chunk.js",
-    "main.js.map": "/Henk/static/js/main.f26cce3b.chunk.js.map",
+    "main.css": "/Henk/static/css/main.09997315.chunk.css",
+    "main.js": "/Henk/static/js/main.a54fb32b.chunk.js",
+    "main.js.map": "/Henk/static/js/main.a54fb32b.chunk.js.map",
     "runtime-main.js": "/Henk/static/js/runtime-main.b9813262.js",
     "runtime-main.js.map": "/Henk/static/js/runtime-main.b9813262.js.map",
     "static/css/2.b1af40b1.chunk.css": "/Henk/static/css/2.b1af40b1.chunk.css",
-    "static/js/2.cf1cce20.chunk.js": "/Henk/static/js/2.cf1cce20.chunk.js",
-    "static/js/2.cf1cce20.chunk.js.map": "/Henk/static/js/2.cf1cce20.chunk.js.map",
+    "static/js/2.45d977a3.chunk.js": "/Henk/static/js/2.45d977a3.chunk.js",
+    "static/js/2.45d977a3.chunk.js.map": "/Henk/static/js/2.45d977a3.chunk.js.map",
     "index.html": "/Henk/index.html",
-    "precache-manifest.5014397f85f6927a169de326b24cbc51.js": "/Henk/precache-manifest.5014397f85f6927a169de326b24cbc51.js",
+    "precache-manifest.c4394716ba5170fd44415e8fdfdc0351.js": "/Henk/precache-manifest.c4394716ba5170fd44415e8fdfdc0351.js",
     "service-worker.js": "/Henk/service-worker.js",
     "static/css/2.b1af40b1.chunk.css.map": "/Henk/static/css/2.b1af40b1.chunk.css.map",
-    "static/css/main.3adf29b6.chunk.css.map": "/Henk/static/css/main.3adf29b6.chunk.css.map",
-    "static/js/2.cf1cce20.chunk.js.LICENSE.txt": "/Henk/static/js/2.cf1cce20.chunk.js.LICENSE.txt",
+    "static/css/main.09997315.chunk.css.map": "/Henk/static/css/main.09997315.chunk.css.map",
+    "static/js/2.45d977a3.chunk.js.LICENSE.txt": "/Henk/static/js/2.45d977a3.chunk.js.LICENSE.txt",
     "static/media/GitHub_Logo.png": "/Henk/static/media/GitHub_Logo.cefc2023.png",
-    "static/media/calathea.png": "/Henk/static/media/calathea.9e336adb.png",
     "static/media/henkShot2.png": "/Henk/static/media/henkShot2.aa837ea9.png",
     "static/media/logo-linkedin.svg": "/Henk/static/media/logo-linkedin.0cbd7270.svg",
-    "static/media/monstera.png": "/Henk/static/media/monstera.ece4f38c.png",
     "static/media/school-24px.svg": "/Henk/static/media/school-24px.e0ea3d9e.svg",
     "static/media/work_outline-black-18dp.svg": "/Henk/static/media/work_outline-black-18dp.4a02b14a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b9813262.js",
     "static/css/2.b1af40b1.chunk.css",
-    "static/js/2.cf1cce20.chunk.js",
-    "static/css/main.3adf29b6.chunk.css",
-    "static/js/main.f26cce3b.chunk.js"
+    "static/js/2.45d977a3.chunk.js",
+    "static/css/main.09997315.chunk.css",
+    "static/js/main.a54fb32b.chunk.js"
   ]
 }

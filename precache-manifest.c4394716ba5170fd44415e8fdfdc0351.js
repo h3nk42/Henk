@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "21c3b2a314e52335f28ee5bec16c3758",
+    "revision": "bd6dba2ad68d831ca8b72212352b496c",
     "url": "/Henk/index.html"
   },
   {
-    "revision": "779eabfd2925ee5a5d79",
+    "revision": "8cf2e215b9ed761051cf",
     "url": "/Henk/static/css/2.b1af40b1.chunk.css"
   },
   {
-    "revision": "253f5719406f608e940d",
-    "url": "/Henk/static/css/main.3adf29b6.chunk.css"
+    "revision": "cb2a2eca53d28f3246e7",
+    "url": "/Henk/static/css/main.09997315.chunk.css"
   },
   {
-    "revision": "779eabfd2925ee5a5d79",
-    "url": "/Henk/static/js/2.cf1cce20.chunk.js"
+    "revision": "8cf2e215b9ed761051cf",
+    "url": "/Henk/static/js/2.45d977a3.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/Henk/static/js/2.cf1cce20.chunk.js.LICENSE.txt"
+    "url": "/Henk/static/js/2.45d977a3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "253f5719406f608e940d",
-    "url": "/Henk/static/js/main.f26cce3b.chunk.js"
+    "revision": "cb2a2eca53d28f3246e7",
+    "url": "/Henk/static/js/main.a54fb32b.chunk.js"
   },
   {
     "revision": "1696e2b3b00c10af179c",
@@ -32,20 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Henk/static/media/GitHub_Logo.cefc2023.png"
   },
   {
-    "revision": "9e336adb1a9f48f307b1e228095a486f",
-    "url": "/Henk/static/media/calathea.9e336adb.png"
-  },
-  {
     "revision": "aa837ea92549c60db0eea40c1b38af2d",
     "url": "/Henk/static/media/henkShot2.aa837ea9.png"
   },
   {
     "revision": "0cbd7270e72c8885c17b4ba59c0bb4a8",
     "url": "/Henk/static/media/logo-linkedin.0cbd7270.svg"
-  },
-  {
-    "revision": "ece4f38c64a448d3e40a875d5f59a27c",
-    "url": "/Henk/static/media/monstera.ece4f38c.png"
   },
   {
     "revision": "e0ea3d9ed538caf1babd189fdaa57d85",
