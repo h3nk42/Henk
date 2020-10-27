@@ -36,15 +36,19 @@ export default function App() {
         }
     }
 
+
     const classes = useStyles();
     return (
         <div className={classes.container} style={{overflowX:"hidden"}} id='scrollTopDiv'>
             <Drawer color={returnColor()[0]}/>
-            <Switch>
-                <Route exact from="/Henk" render={props => <Home schemeChanger={schemeChanger} scheme={scheme} {...props} />} />
-                <Route exact from="/Henk/Projects" render={props => <Projects getColor={returnColor} schemeChanger={schemeChanger} scheme={scheme} {...props} />} />
-                <Route exact from="/Henk/Contact" render={props => <Contact schemeChanger={schemeChanger} scheme={scheme} {...props} />} />
-            </Switch>
+
+                <Switch>
+                    <Route exact path="/" render={props => <Home schemeChanger={schemeChanger} scheme={scheme} {...props} />} />
+                    <Route  path="/Projects" render={props => <Projects getColor={returnColor} schemeChanger={schemeChanger} scheme={scheme} {...props} />} />
+                    <Route  path="/Contact" render={props => <Contact schemeChanger={schemeChanger} scheme={scheme} {...props} />} />
+                </Switch>
+
+
         </div>
     );
 }

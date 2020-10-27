@@ -24,12 +24,12 @@ export default function Drawer(props) {
     const handleClick = (num) => {
         window.scrollTo(0, 0)
         if (num === 0 ) {
-            history.push('/Henk')
+            history.push('/')
         } else if (num === 1) {
-            history.push('/Henk/Contact')
+            history.push('/Contact')
         }
         else if (num === 2 ) {
-            history.push('/Henk/Projects')
+            history.push('/Projects')
         }
     }
 

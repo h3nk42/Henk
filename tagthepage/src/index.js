@@ -4,7 +4,7 @@ import './index.css';
 import App from './2.0/App';
 import * as serviceWorker from './serviceWorker';
 import ResponsiveDrawer from "./components/DrawerTest";
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import {CssBaseline} from "@material-ui/core";
 
 
